@@ -1,17 +1,40 @@
 # couch2base
 
-jest to test repozytorium
+Znajdują się tutaj skrypty umożliwiające:
+*import json do couchdb
+*eksport couchdb do mongodb
+*eksport couchdb do elasticsearch
+*eksport couchdb do json / wyświetlanie json na ekranie
 
-Test tekstu <a href="http://www.github.com/">test_linka</a> – data-driven documents.
+oraz przykładowe bazy json dla skryptów.
 
-	instrukcja1
+## Instalacja
 
-    node json2couch.js input.json basename
+	npm install couch-client
+	npm install cradle
+	npm install mongodb
+	npm install elasticsearchclient
 
-jakiś link [aaaaa](http://www.github.com/)
-## Setup
+## Uruchamianie
+### json2couch
+jest to zmodyfikowana wersja [bulk_docs.js](http://wbzyl.inf.ug.edu.pl/nosql/node/db/bulk_docs.js)
+tworzy bazę coucha i dodaje dane
+	node json2couch.js input.json basename
+czyli np.
+	node json2couch.js iron-maiden.json songs
+	node json2couch.js metallica.json songs
+	node json2couch.js queen.json songs
 
+### couch2mongo
+tworzy kolekcję w mongodb, kopiuje do niej dane z couchdb, wyświetla bazę mongo
+	node couch2mongo.js basename
 
-### Git Tips
+### couch2elastic
+tworzy nowy index w elasticsearch, kopiuje bazę z couchdb
+	node couch2elastic.js basename
 
-* [How to „Merge” Specific Files from Another Branch](http://jasonrudolph.com/blog/2009/02/25/git-tip-how-to-merge-specific-files-from-another-branch/)
+### couch2json
+wyświetlenie bazy w json na ekranie
+	node couch2json.js basename
+zrzut danych do pliku
+	node couch2json.js basename >> output.json
