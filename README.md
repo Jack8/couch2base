@@ -1,10 +1,10 @@
 # couch2base
 
 Znajdują się tutaj skrypty umożliwiające:
-*import json do couchdb
-*eksport couchdb do mongodb
-*eksport couchdb do elasticsearch
-*eksport couchdb do json / wyświetlanie json na ekranie
+* import json do couchdb
+* eksport couchdb do mongodb
+* eksport couchdb do elasticsearch
+* eksport couchdb do json / wyświetlanie json na ekranie
 
 oraz przykładowe bazy json dla skryptów.
 
