@@ -19,22 +19,30 @@ oraz przykładowe bazy json dla skryptów.
 ### json2couch
 jest to zmodyfikowana wersja [bulk_docs.js](http://wbzyl.inf.ug.edu.pl/nosql/node/db/bulk_docs.js)
 tworzy bazę coucha i dodaje dane
+
 	node json2couch.js input.json basename
+
 czyli np.
+
 	node json2couch.js iron-maiden.json songs
 	node json2couch.js metallica.json songs
 	node json2couch.js queen.json songs
 
 ### couch2mongo
 tworzy kolekcję w mongodb, kopiuje do niej dane z couchdb, wyświetla bazę mongo
+
 	node couch2mongo.js basename
 
 ### couch2elastic
 tworzy nowy index w elasticsearch, kopiuje bazę z couchdb
+
 	node couch2elastic.js basename
 
 ### couch2json
 wyświetlenie bazy w json na ekranie
+
 	node couch2json.js basename
+
 zrzut danych do pliku
+
 	node couch2json.js basename >> output.json
