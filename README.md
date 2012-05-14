@@ -9,6 +9,9 @@ Znajdują się tutaj skrypty umożliwiające:
 oraz przykładowe bazy json dla skryptów.
 
 ## Instalacja
+Wymagany jest [NodeJs](https://github.com/joyent/node)
+
+oraz dodatkowe moduły:
 
 	npm install couch-client
 	npm install cradle
@@ -18,6 +21,7 @@ oraz przykładowe bazy json dla skryptów.
 ## Uruchamianie
 ### json2couch
 jest to zmodyfikowana wersja [bulk_docs.js](http://wbzyl.inf.ug.edu.pl/nosql/node/db/bulk_docs.js)
+
 tworzy bazę coucha i dodaje dane
 
 	node json2couch.js input.json basename
