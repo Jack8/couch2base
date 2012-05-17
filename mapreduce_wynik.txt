@@ -1,0 +1,35 @@
+Map:
+"The Final Frontier"
+ID: 72c0e6e550b38a2e193fae833f69c36d	
+659
+"The Final Frontier"
+ID: 72c0e6e550b38a2e193fae833f69c52e	
+546
+"The Final Frontier"
+ID: 72c0e6e550b38a2e193fae833f69c8df	
+520
+"The Final Frontier"
+ID: 72c0e6e550b38a2e193fae833f69d8d3	
+543
+"The Final Frontier"
+ID: 72c0e6e550b38a2e193fae833f69e29b	
+409
+"The Final Frontier"
+ID: 72c0e6e550b38a2e193fae833f69ea6b	
+468
+"The Final Frontier"
+ID: 72c0e6e550b38a2e193fae833f69f804	
+269
+"The Final Frontier"
+ID: 72c0e6e550b38a2e193fae833f6a0247	
+508
+"The Final Frontier"
+ID: 72c0e6e550b38a2e193fae833f6a08b9	
+320
+"The Final Frontier"
+ID: 72c0e6e550b38a2e193fae833f6a13d0	
+352
+
+Reduce:
+	
+76.56666666666666

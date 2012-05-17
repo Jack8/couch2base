@@ -1,0 +1,10 @@
+Map Function:
+function(doc) {
+  if (doc.artist === 'Iron Maiden' && doc.release === 'The Final Frontier')
+  emit(doc.release, parseFloat(doc.length));
+}
+
+Reduce Function:
+function (key, values, rereduce) {
+    return (sum(values)/60);
+}

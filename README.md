@@ -50,3 +50,14 @@ wyświetlenie bazy w json na ekranie
 zrzut danych do pliku
 
 	node couch2json.js basename >> output.json
+
+## Mapreduce
+W plikach
+
+	mapreduce.txt
+	mapreduce_wynik.txt
+
+znajdują się
+* przykładowa funkcja map zwracająca sługość piosenek w sekundach dla wybranego artysty i albumu
+* funkcja reduce sumująca długość piosenek i zwracająca wynik w minutach
+
