@@ -58,6 +58,6 @@ W plikach
 	mapreduce_wynik.txt
 
 znajdują się
-* przykładowa funkcja map zwracająca sługość piosenek w sekundach dla wybranego artysty i albumu
+* przykładowa funkcja map zwracająca długość piosenek w sekundach dla wybranego artysty i albumu
 * funkcja reduce sumująca długość piosenek i zwracająca wynik w minutach
 
