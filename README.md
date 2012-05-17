@@ -51,7 +51,7 @@ zrzut danych do pliku
 
 	node couch2json.js basename >> output.json
 
-## Mapreduce
+## Mapreduce dla couchdb
 W plikach
 
 	mapreduce.txt
